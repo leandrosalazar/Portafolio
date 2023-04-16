@@ -7,16 +7,15 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    
+    <link rel="icon" type="image/png" href="/img/development.png" />
 </head>
-<body>
-    <div id="particles-js"></div>
+<body class="no-select">
+    <div class="cursor"></div>
     <div class="header">
         <h1>¡Hola! Soy Leandro Salazar</h1>
         <p>Bienvenidos a mi Portafolio</p>
     </div>    
-    <a href="https://www.linkedin.com/in/leandrosalazar-dev/" class="btn-neon">
+    <a href="https://www.linkedin.com/in/leandrosalazar-dev/" class="btn-neon" >
         <span id="span1"></span>
         <span id="span2"></span>
         <span id="span3"></span>
@@ -30,8 +29,9 @@
         <span id="span8"></span>
         Github
     </a>
-    <script src="/js/particles.min.js"></script>
-    <script src="/js/particulas.js"></script>
-    
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>      
+    <script src="js/app.js"></script>
 </body>
 </html>
